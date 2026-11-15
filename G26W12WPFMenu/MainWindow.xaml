@@ -17,7 +17,11 @@
                     <MenuItem Header="파일(_F)"/>
                 </MenuItem>
                 <MenuItem Header="열기(_O)..."
-                          Command="Open"/>
+                          Command="Open">
+                    <MenuItem.Icon>
+                        <Image Source="/Images/짐mini.jpg"/>
+                    </MenuItem.Icon>
+                </MenuItem>
             </MenuItem>
             <MenuItem Header="배경색(_B)">
                 <MenuItem Header="빨간색(_R)"
